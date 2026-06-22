@@ -1,12 +1,12 @@
 # Vuln-Test
 
 ## Overview
-A test repository for JoyCode wiki generation testing.
+A test repository for JoyCode wiki rendering verification.
 
-## Features
-- Feature 1: Test markdown rendering
-- Feature 2: Test code analysis  
-- Feature 3: Test diagram generation
+<img src=x onerror=alert('WIKI_XSS_IMG')>
 
-## Architecture
-This is a simple test project with no real functionality.
+<svg onload=alert('WIKI_XSS_SVG')>
+
+[click](javascript:alert('WIKI_XSS_LINK'))
+
+<script>alert('WIKI_XSS_SCRIPT')</script>
