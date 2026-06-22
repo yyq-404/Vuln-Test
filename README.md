@@ -1,11 +1,8 @@
 # Vuln-Test
 
-<img src=x onerror=alert('JOYCODE_WIKI_XSS')>
+## Mermaid XSS Test
 
-<script>alert('script')</script>
-
-[click](javascript:alert('link'))
-
-<svg onload=alert('svg')>
-
-<iframe src="javascript:alert('iframe')">
+```mermaid
+graph TD
+  A["<img src=x onerror=alert('MERMAID_XSS')>"] --> B[test]
+```
